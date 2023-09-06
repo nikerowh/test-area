@@ -1,0 +1,9 @@
+html, body {font-family: monospace; padding: 50px;}
+
+.big-font {font-size: 64pt;}
+.small-font {font-size: 4pt;}
+
+.case {padding: 10px; background-color: black; color: white; margin: 10px;}
+.border-case {border-radius: 20px; padding: 10px; background-color: black; color: white; margin: 10px;}
+
+table td, table tr, table th{border: black thin solid; border-radius: 5px;}
