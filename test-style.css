@@ -7,3 +7,21 @@ html, body {font-family: monospace; padding: 50px;}
 .border-case {border-radius: 20px; padding: 10px; background-color: black; color: white; margin: 10px;}
 
 table td, table tr, table th{border: black thin solid; border-radius: 5px;}
+
+.text-custom {
+    background-color: white;
+    border-color: rgb(168, 168, 168);
+
+    border-width: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    font-weight: bold;
+}
+.text-custom:focus, .text-custom:hover {
+    background-color: greenyellow;
+    border-color: greenyellow;
+    border-width: 5px;
+    color: black;
+
+}
