@@ -25,3 +25,55 @@ table td, table tr, table th{border: black thin solid; border-radius: 5px;}
     color: black;
 
 }
+
+
+
+
+
+
+.custom-form {
+    background-color: black;
+    color: rgb(15, 180, 0);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: auto;
+    max-width: 250px;
+
+}
+.firstname label, .lastname label, .birthday label {font-weight: bolder; font-size: 16pt;}
+
+.firstname input, .lastname input, .birthday input {
+    border-radius: 5px;
+    background-color: rgb(49, 49, 49);
+    color: rgb(15, 180, 0);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.firstname input:hover, .lastname input:hover, .birthday input:hover {background-color: rgb(15, 49, 15);}
+
+.submit {
+    width: 150px;
+    padding: 10px;
+    color: black;
+    background-color: rgb(15, 180, 0);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: bolder;
+    font-size: 18pt;
+    text-align: center;
+}
+.submit:hover {
+    border-color: rgb(15, 180, 0);
+    border-width: 3px;
+    background-color: black;
+    color: rgb(15, 180, 0);
+}
+
+.range input {
+    background-color: black;
+    color: rgb(15, 180, 0);
+}
